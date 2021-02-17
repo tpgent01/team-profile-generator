@@ -1,15 +1,16 @@
 # Team Profile Generator
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## 💬Description 
+## 💬 Description 
 
 
 
 
-## 📓Table of Contents
+## 📓 Table of Contents
 
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
+* [Mock-Up](#mock-up)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Built With](#built-with)
@@ -20,7 +21,7 @@
 * [Questions](#questions)
 
 
-## 🧠User Story
+## 🧠 User Story
 ```
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
@@ -28,7 +29,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 ```
 
 
-## 🧩Acceptance Criteria
+## 🧩 Acceptance Criteria
 ```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for my team members and their information
@@ -49,33 +50,35 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
 
+## 🎨 Mock-Up
 
-## 🔌Installation
+
+## 🔌 Installation
 
 The user should clone the repository from GitHub and open up the project in their code editor.
 
 
-## 🎨Usage 
+## 💻 Usage 
 Please run command _node app.js_.
 <br>[Click me for walkthrough❗️](https://drive.google.com/file/d/1_MROsTzq2raz74C_XY3Nl1DGxqNmPP5m/view)</br>
 <br>![](assets/play.gif)</br>
 
 
-## ✏️Built With
+## ✏️ Built With
 
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/">NPM</a></p>
 <p><a href="https://www.npmjs.com/package/inquirer">Inquirer.js</a></p>
 
 
-## 🔐License
+## 🔐 License
 ```
 Copyright © MIT. All rights reserved. 
 Licensed under the MIT license.
 ```
 
 
-## 🏆Badges
+## 🏆 Badges
 
 ![GitHub top language](https://img.shields.io/github/languages/top/tpgent01/readme-generator)
 <br>![GitHub closed issues](https://img.shields.io/github/issues-closed/tpgent01/readme-generator)</br>
@@ -83,18 +86,18 @@ Licensed under the MIT license.
 <br>![GitHub commit activity](https://img.shields.io/github/commit-activity/y/tpgent01/readme-generator)</br>
 
 
-## 📌Contributing
+## 📌 Contributing
 
 Taylor Gentry ©2020 All Rights Reserved.
 
 
-## 📊Tests
+## 📊 Tests
 
 To test this project, please see the [Installation](#installation) section. 
 <br>Then run command _npm run test_.</br>
 <br>![](assets/test.gif)</br>
 
 
-## ❓Questions
+## ❓ Questions
 If you have any questions about this projects, please contact me directly at tpgent01@outlook.com. 
 <br>You can view more of my projects at https://github.com/tpgent01 👾</br>
