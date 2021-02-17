@@ -51,7 +51,7 @@ THEN I exit the application, and the HTML is generated
 ```
 
 ## 🎨 Mock-Up
-
+![](assets/mock-up.png)
 
 ## 🔌 Installation
 
