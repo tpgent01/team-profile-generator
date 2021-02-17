@@ -8,10 +8,13 @@
 
 ## 📓Table of Contents
 
+* [User Story](#user)
+* [Acceptance Criteria](#acceptance)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Built With](#built)
 * [License](#license)
+* [Badges](#badges)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
@@ -25,7 +28,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 ```
 
 
-## 🧠Acceptance Criteria
+## 🧩Acceptance Criteria
 ```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for my team members and their information
