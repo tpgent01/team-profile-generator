@@ -8,11 +8,11 @@
 
 ## 📓Table of Contents
 
-* [User Story](#user)
-* [Acceptance Criteria](#acceptance)
+* [User Story](#user-story)
+* [Acceptance Criteria](#acceptance-criteria)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Built With](#built)
+* [Built With](#built-with)
 * [License](#license)
 * [Badges](#badges)
 * [Contributing](#contributing)
