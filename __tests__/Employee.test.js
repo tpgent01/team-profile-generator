@@ -1,4 +1,3 @@
-const { TestScheduler } = require('jest');
 const Employee = require('../lib/Employee');
 
 test("Can instantiate Employee instance", () => {
@@ -18,3 +17,14 @@ test("Can set id via constructor argument", () => {
     expect(e.id).toBe(testValue);
 });
 
+test("Can get email via getEmail()", () => {
+    const testValue = "test@test.com";
+    const e = new Employee("Foo", 1, testValue);
+    expect(e.getEmail()).toBe(testValue);
+});
+  
+  test("getRole() should return \"Employee\"", () => {
+    const testValue = "Employee";
+    const e = new Employee("Alice", 1, "test@test.com");
+    expect(e.getRole()).toBe(testValue);
+});

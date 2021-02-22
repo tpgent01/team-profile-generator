@@ -1,19 +1,21 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
+const inquirer = require("inquirer");
+const fs = require("fs");
 
 inquirer.prompt([
     {
-        type: 'text',
-        name: 'name',
-        message: 'What is your name?'
+        message: "Please enter your name",
+        name: "username"
     },
     {
-        type: 'text',
-        name: 'size',
-        
-    }
-
+        message: "How many people are on your team?",
+        name: "teamSize"
+    },
+    {
+        message: "Please enter your name",
+        name: "username"
+    },
 ])
-.then(({ name }) => {
-    this.employee = new Employee(name);
+
+.then(function(data){
+    console.log(data.teamSize)
 });
