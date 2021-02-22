@@ -82,7 +82,7 @@ function addEngineer() {
 
         .then(function (data) {
             const name = data.name
-            const id = 1
+            const id = finalTeamArray.length + 1
             const email = data.email
             const github = data.github
             const teamMember = new Engineer(name, id, email, github)
@@ -109,7 +109,7 @@ function addIntern() {
 
         .then(function (data) {
             const name = data.name
-            const id = 1
+            const id = finalTeamArray.length + 1
             const email = data.email
             const school = data.school
             const teamMember = new Intern(name, id, email, school)
