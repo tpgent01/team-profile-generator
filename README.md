@@ -83,10 +83,11 @@ Licensed under the MIT license.
 
 ## 🏆 Badges
 
-![GitHub top language](https://img.shields.io/github/languages/top/tpgent01/readme-generator)
-<br>![GitHub closed issues](https://img.shields.io/github/issues-closed/tpgent01/readme-generator)</br>
-![npm bundle size](https://img.shields.io/bundlephobia/min/inquirer)
-<br>![GitHub commit activity](https://img.shields.io/github/commit-activity/y/tpgent01/readme-generator)</br>
+![GitHub top language](https://img.shields.io/github/languages/top/tpgent01/team-profile-generator?style=plastic)
+<br>![GitHub repo size](https://img.shields.io/github/repo-size/tpgent01/team-profile-generator?style=plastic)</br>
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/jest?style=plastic)
+<br>![npm bundle size](https://img.shields.io/bundlephobia/minzip/inquirer?style=plastic)</br>
+![GitHub closed issues](https://img.shields.io/github/issues-closed/tpgent01/team-profile-generator?style=plastic)
 
 
 ## 📌 Contributing
@@ -96,9 +97,8 @@ Taylor Gentry ©2020 All Rights Reserved.
 
 ## 📊 Tests
 
-To test this project, please see the [Installation](#installation) section. 
-<br>Then run command _npm run test_.</br>
-This program was build using class syntax and constructor functions. The functions were tested before building out the remainder of the program. 
+To test this project, please see the [Installation](#installation) section - then run command _npm run test_.
+<br>This program was build using class syntax and constructor functions. The functions were tested before building out the remainder of the program.</br> 
 <br>![](assets/tests.gif)</br>
 
 
