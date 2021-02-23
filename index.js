@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const style = require("./dist/style")
 
 const Employee = require("./lib/employee")
 const Engineer = require("./lib/engineer")
@@ -11,7 +12,7 @@ let finalTeamArray = [];
 function startPrompt() {
     inquirer.prompt([
         {
-            message: "Welcome to the Team Profile Generator! Please write your team name:",
+            message: "/////Welcome to the Team Profile Generator! Please enter your team name below./////",
             name: "teamname"
         }
     ])
@@ -133,31 +134,42 @@ function addIntern() {
 };
 
 function compileTeam() {
-    console.log("complete!")
-    console.log(finalTeamArray)
+    console.log("/////You have completed the Team Profile Generator!/////")
 
     const htmlArray = []
     const htmlBeginning = `
     <!DOCTYPE html>
     <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title>${finalTeamArray[0]}</title>
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <style>
+            ${style}
+        </style>
     </head>
+
     <body>
-    <h1>${finalTeamArray[0]}</h1>
+    <div class="banner-bar">
+        <h1>${finalTeamArray[0]}</h1>
+    </div>
+    <div class="card-container">
     `
     htmlArray.push(htmlBeginning);
 
     for (let i = 1; i < finalTeamArray.length; i++) {
         let object = `
-        <div>
-            <p>${finalTeamArray[i].title}</p>
-            <p>${finalTeamArray[i].id}</p>
-            <p>${finalTeamArray[i].name}</p>
-            <p>${finalTeamArray[i].email}</p>
+        <div class="member-card">
+        <div class="card-top">
+            <h2>${finalTeamArray[i].name}</h2>
+            <h2>${finalTeamArray[i].title}</h2>
+        </div>
+        <div class="card-bottom">
+            <p>Employee ID: ${finalTeamArray[i].id}</p>
+            <p>Email: <a href="mailto:${finalTeamArray[i].email}">${finalTeamArray[i].email}</a>></p>
         `
         if (finalTeamArray[i].officeNumber) {
             object += `
@@ -166,28 +178,30 @@ function compileTeam() {
         }
         if (finalTeamArray[i].github) {
             object += `
-            <p>${finalTeamArray[i].github}</p>
+            <p>GitHub: <a href="https://github.com/${finalTeamArray[i].github}">${finalTeamArray[i].github}</a></p>
             `
         }
         if (finalTeamArray[i].school) {
             object += `
-            <p>${finalTeamArray[i].school}</p>
+            <p>School: ${finalTeamArray[i].school}</p>
             `
         }
         object += `
+        </div>
         </div>
         `
         htmlArray.push(object)
     }
 
     const htmlEnd = `
+    </div>
     </body>
     </html>
     `
     htmlArray.push(htmlEnd);
 
-    fs.writeFile("./dist/index.html", htmlArray.join(""), function (err) {
-        console.log("error")
+    fs.writeFile(`./generated-html/${finalTeamArray[0]}.html`, htmlArray.join(""), function (err) {
+        
     })
 }
 
