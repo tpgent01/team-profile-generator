@@ -68,7 +68,9 @@ Please run command _node index.js_.
 
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/">NPM</a></p>
-<p><a href="https://www.npmjs.com/package/inquirer">Inquirer.js</a></p>
+<p><a href="https://www.npmjs.com/package/inquirer">Inquirer</a></p>
+<p><a href="https://jestjs.io/">Jest</a></p>
+<p><a href="https://fonts.google.com/">Google Fonts</a></p>
 
 
 ## 🔐 License
