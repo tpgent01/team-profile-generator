@@ -60,8 +60,9 @@ The user should clone the repository from GitHub and open up the project in thei
 
 ## 💻 Usage 
 Please run command _node index.js_.
-<br>[Click me for walkthrough❗️](https://drive.google.com/file/d/1_MROsTzq2raz74C_XY3Nl1DGxqNmPP5m/view)</br>
+<br>[Click me for walkthrough❗️](https://drive.google.com/file/d/1KapztHhk4d70i89yPy8xY-UeZX8Ts1Rh/view)</br>
 <br>![](assets/play.gif)</br>
+<br>![](assets/example.gif)</br>
 
 
 ## ✏️ Built With
@@ -98,7 +99,7 @@ Taylor Gentry ©2020 All Rights Reserved.
 To test this project, please see the [Installation](#installation) section. 
 <br>Then run command _npm run test_.</br>
 This program was build using class syntax and constructor functions. The functions were tested before building out the remainder of the program. 
-<br>![](assets/test.gif)</br>
+<br>![](assets/tests.gif)</br>
 
 
 ## ❓ Questions
