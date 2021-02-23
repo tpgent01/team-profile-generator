@@ -7,9 +7,11 @@ A program built with Node.js that prompts a user for input (team name, team memb
 
 ## 📓 Table of Contents
 
+* [Purpose](#purpose)
+* [Mock Up](#mock-up)
+* [Built With](#built_with)
 * [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
+* [Website](#website)
 * [Badges](#badges)
 * [Contributing](#contributing)
 * [Tests](#tests)
