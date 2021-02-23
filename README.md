@@ -7,18 +7,20 @@ A program built with Node.js that prompts a user for input (team name, team memb
 
 ## 📓 Table of Contents
 
-* [Purpose](#purpose)
-* [Mock Up](#mock-up)
-* [Built With](#built_with)
+* [User Story](#user-story)
+* [Acceptance Criteria](#acceptance-criteria)
+* [Mock-Up](#mock-up)
 * [Installation](#installation)
-* [Website](#website)
+* [Usage](#usage)
+* [Built With](#built-with)
+* [License](#license)
 * [Badges](#badges)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 
 
-## 🧠 User Story
+## 🧠User Story
 ```
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
@@ -26,7 +28,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 ```
 
 
-## 🧩 Acceptance Criteria
+## 🧩Acceptance Criteria
 ```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for my team members and their information
@@ -47,23 +49,23 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
 
-## 🎨 Mock-Up
+## 🎨Mock-Up
 ![](assets/mock-up.png)
 
 
-## 🔌 Installation
+## 🔌Installation
 The user should clone the repository from GitHub and open up the project in their code editor.
 <br>User will need to run node.js and perform an npm install for all necessary modules listed below.</br>
 
 
-## 💻 Usage 
+## 💻Usage 
 Please run command _node index.js_.
 <br>[Click me for walkthrough❗️](https://drive.google.com/file/d/1KapztHhk4d70i89yPy8xY-UeZX8Ts1Rh/view)</br>
 <br>![](assets/play.gif)</br>
 <br>![](assets/example.gif)</br>
 
 
-## ✏️ Built With
+## ✏️Built With
 
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/">NPM</a></p>
@@ -72,14 +74,14 @@ Please run command _node index.js_.
 <p><a href="https://fonts.google.com/">Google Fonts</a></p>
 
 
-## 🔐 License
+## 🔐License
 ```
 Copyright © MIT. All rights reserved. 
 Licensed under the MIT license.
 ```
 
 
-## 🏆 Badges
+## 🏆Badges
 
 ![GitHub top language](https://img.shields.io/github/languages/top/tpgent01/team-profile-generator?style=plastic)
 <br>![GitHub repo size](https://img.shields.io/github/repo-size/tpgent01/team-profile-generator?style=plastic)</br>
@@ -88,18 +90,18 @@ Licensed under the MIT license.
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/tpgent01/team-profile-generator?style=plastic)
 
 
-## 📌 Contributing
+## 📌Contributing
 
 Taylor Gentry ©2020 All Rights Reserved.
 
 
-## 📊 Tests
+## 📊Tests
 
 To test this project, please see the [Installation](#installation) section - then run command _npm run test_.
 <br>This program was build using class syntax and constructor functions. The functions were tested before building out the remainder of the program.</br> 
 <br>![](assets/tests.gif)</br>
 
 
-## ❓ Questions
+## ❓Questions
 If you have any questions about this projects, please contact me directly at tpgent01@outlook.com. 
 <br>You can view more of my projects at https://github.com/tpgent01 👾</br>
