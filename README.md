@@ -2,8 +2,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## 💬 Description 
-
-
+A program built with Node.js that prompts a user for input (team name, team members, roles, emails, etc.) and generates an HTML file based on the given information.
 
 
 ## 📓 Table of Contents
@@ -53,13 +52,14 @@ THEN I exit the application, and the HTML is generated
 ## 🎨 Mock-Up
 ![](assets/mock-up.png)
 
-## 🔌 Installation
 
+## 🔌 Installation
 The user should clone the repository from GitHub and open up the project in their code editor.
+<br>User will need to run node.js and perform an npm install for all necessary modules listed below.</br>
 
 
 ## 💻 Usage 
-Please run command _node app.js_.
+Please run command _node index.js_.
 <br>[Click me for walkthrough❗️](https://drive.google.com/file/d/1_MROsTzq2raz74C_XY3Nl1DGxqNmPP5m/view)</br>
 <br>![](assets/play.gif)</br>
 
@@ -95,6 +95,7 @@ Taylor Gentry ©2020 All Rights Reserved.
 
 To test this project, please see the [Installation](#installation) section. 
 <br>Then run command _npm run test_.</br>
+This program was build using class syntax and constructor functions. The functions were tested before building out the remainder of the program. 
 <br>![](assets/test.gif)</br>
 
 
