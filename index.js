@@ -12,7 +12,7 @@ let finalTeamArray = [];
 function startPrompt() {
     inquirer.prompt([
         {
-            message: "/////Welcome to the Team Profile Generator! Please enter your team name below./////",
+            message: "/////Welcome to the Team Profile Generator! Please enter your team name here:",
             name: "teamname"
         }
     ])
@@ -200,8 +200,8 @@ function compileTeam() {
     `
     htmlArray.push(htmlEnd);
 
-    fs.writeFile(`./generated-html/${finalTeamArray[0]}.html`, htmlArray.join(""), function (err) {
-        
+    fs.writeFile(`./dist/${finalTeamArray[0]}.html`, htmlArray.join(""), function (err) {
+
     })
 }
 
