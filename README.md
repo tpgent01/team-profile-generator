@@ -12,7 +12,6 @@ A program built with Node.js that prompts a user for input (team name, team memb
 * [Mock-Up](#mock-up)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Built With](#built-with)
 * [License](#license)
 * [Badges](#badges)
 * [Contributing](#contributing)
@@ -85,8 +84,8 @@ Licensed under the MIT license.
 
 ![GitHub top language](https://img.shields.io/github/languages/top/tpgent01/team-profile-generator?style=plastic)
 <br>![GitHub repo size](https://img.shields.io/github/repo-size/tpgent01/team-profile-generator?style=plastic)</br>
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/jest?style=plastic)Jest
-<br>![npm bundle size](https://img.shields.io/bundlephobia/minzip/inquirer?style=plastic)Inquirer</br>
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/jest?style=plastic) - Jest
+<br>![npm bundle size](https://img.shields.io/bundlephobia/minzip/inquirer?style=plastic) - Inquirer</br>
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/tpgent01/team-profile-generator?style=plastic)
 
 
