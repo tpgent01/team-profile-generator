@@ -146,7 +146,8 @@ function compileTeam() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>${finalTeamArray[0]}</title>
-        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap" rel="stylesheet">
         <style>
             ${style}
         </style>
@@ -165,15 +166,15 @@ function compileTeam() {
         <div class="member-card">
         <div class="card-top">
             <h2>${finalTeamArray[i].name}</h2>
-            <h2>${finalTeamArray[i].title}</h2>
+            <h3>${finalTeamArray[i].title}</h3>
         </div>
         <div class="card-bottom">
-            <p>Employee ID: ${finalTeamArray[i].id}</p>
-            <p>Email: <a href="mailto:${finalTeamArray[i].email}">${finalTeamArray[i].email}</a>></p>
+            <p>ID: ${finalTeamArray[i].id}</p>
+            <p>Email: <a href="mailto:${finalTeamArray[i].email}">${finalTeamArray[i].email}</a></p>
         `
         if (finalTeamArray[i].officeNumber) {
             object += `
-            <p>${finalTeamArray[i].officeNumber}</p>
+            <p>Office Number: ${finalTeamArray[i].officeNumber}</p>
             `
         }
         if (finalTeamArray[i].github) {
